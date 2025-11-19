@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Member - Diana Glow SkinCare</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+        header { background-color: palevioletred; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #333; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        form { background: white; padding: 20px; margin: 50px auto; width: 50%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        label { display: block; margin-top: 10px; }
+        input { width: 95%; padding: 10px; margin-top: 5px; }
+        button { width: 100%; padding: 10px; margin-top: 5px; }
+        button { background-color: #cc577e; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; }
+        @media (max-width: 600px) { form { width: 90%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daftar Member Diana Glow SkinCare</h1>
+        <p>Bergabunglah untuk mendapatkan diskon dan update produk terbaru!</p>
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="products.html">Produk</a>
+        <a href="pesanan.html">Pesanan</a>
+        <a href="register.html">Daftar Member</a>
+    </nav>
+    <form action="#" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <label for="phone">Nomor Telepon:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <button type="submit">Daftar</button>
+    </form>
+    <footer>
+        <p>&copy; 2023 SkinCare Glow. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
